@@ -43,14 +43,14 @@
             <div class="col s12">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="modal-chat-title" type="text" class="validate" data-length="10" />
+                        <input id="msj-titulo" type="text" class="validate" data-length="10" />
                         <label for="title">Título</label>
                     </div>
                     <div class="input-field col s12">
-                        <textarea id="modal-chat-message" class="materialize-textarea"></textarea>
-                        <label for="message">Mensaje</label>
+                        <textarea id="msj-archivo" class="materialize-textarea"></textarea>
+                        <label for="archivo">Mensaje</label>
                     </div>
-                    <button class="btn waves-effect waves-light right cyan accent-4" type="submit" name="action" data-publication="text">Publicar
+                    <button class="btn waves-effect waves-light right cyan accent-4" type="submit" name="action" data-publication="msj">Publicar
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
@@ -62,19 +62,19 @@
             <div class="col s12">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="modal-image-title" type="text" class="validate" data-length="10" />
+                        <input id="img-titulo" type="text" class="validate" data-length="10" />
                         <label for="title">Título</label>
                     </div>
                     <div class="file-field input-field col s12">
                         <div class="btn">
                             <span>Imagen</span>
-                            <input type="file" accept="image/*" id="image-file">
+                            <input type="file" accept="image/*" id="img-archivo">
                         </div>
                         <div class="file-path-wrapper">
                             <input class="file-path validate" type="text">
                         </div>
                     </div>
-                    <button class="btn waves-effect waves-light right blue accent-2" type="submit" name="action" data-publication="image">Publicar
+                    <button class="btn waves-effect waves-light right blue accent-2" type="submit" name="action" data-publication="img">Publicar
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
@@ -86,20 +86,19 @@
             <div class="col s12">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input type="text" class="validate" data-length="10" id="modal-media-title" name="modal-media-title"
-                        />
+                        <input type="text" class="validate" data-length="10" id="video-titulo" name="video-titulo"/>
                         <label for="modal-media-title">Título</label>
                     </div>
                     <div class="file-field input-field col s12">
                         <div class="btn">
                             <span>Video o Audio</span>
-                            <input type="file" accept="video/mp4,video/x-m4v,video/*, audio/mp3, audio/*" id="media-file">
+                            <input type="file" accept="video/mp4,video/x-m4v,video/*, audio/mp3, audio/*" id="video-archivo">
                         </div>
                         <div class="file-path-wrapper">
                             <input class="file-path validate" type="text">
                         </div>
                     </div>
-                    <button class="btn waves-effect waves-light right amber accent-2" type="submit" name="action" data-publication="media">Publicar
+                    <button class="btn waves-effect waves-light right amber accent-2" type="submit" name="action" data-publication="video">Publicar
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
